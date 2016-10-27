@@ -15,7 +15,19 @@
     <script data-silex-static="" type="text/javascript" src="//editor.silex.me/static/2.6/front-end.js"></script>
 
     <style type="text/css" class="silex-style"></style>
-    <script type="text/javascript" class="silex-script"></script>
+    <script type="text/javascript" class="silex-script">
+        var video = document.getElementById('video');
+        var source = document.createElement('source');
+        
+        
+        function changeVid(path) {
+        source.setAttribute('src', 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4');
+        
+        video.appendChild(source);
+        video.play();
+        
+        }
+    </script>
     <style class="silex-inline-styles" type="text/css">
         .body-initial {
             background-color: rgb(38, 38, 38); 
@@ -35,6 +47,13 @@
             padding-top: 77.84%; 
             background-repeat: no-repeat; 
             background-color: rgba(255,255,255,1); 
+        }
+        .silex-id-1477585246736-16 {
+            min-height: 244px; 
+            width: 320px; 
+            top: 100px; 
+            left: 813px; 
+            background-color: rgb(255, 255, 255); 
         }
         .silex-id-1477584939387-6 {
             min-height: 58px; 
@@ -116,13 +135,6 @@
             background-color: rgb(255, 255, 255); 
             opacity: 0.4; 
         }
-        .silex-id-1477585246736-16 {
-            min-height: 244px; 
-            width: 320px; 
-            top: 100px; 
-            left: 813px; 
-            background-color: rgb(255, 255, 255); 
-        }
     </style>
     <title></title>
     <script type="text/javascript" class="silex-json-styles">
@@ -166,6 +178,13 @@
 
 
     <div data-silex-type="container" class="editable-style silex-id-1477584374053-5 container-element bg" data-silex-id="silex-id-1477584374053-5">
+        <div data-silex-type="html" class="editable-style silex-id-1477585246736-16 html-element" data-silex-id="silex-id-1477585246736-16">
+            <div class="silex-element-content">
+                <video width="320" height="240" controls="">
+                    <source http:="" editor.silex.me="" api="" 1.0="" github="" exec="" get="" hello-world="" master="" c%20flow%20site.htmlsrc="" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
         <div data-silex-type="container" class="editable-style silex-id-1477584939387-6 container-element" data-silex-id="silex-id-1477584939387-6" data-silex-href="http://www.google.com"></div>
         <div data-silex-type="container" class="editable-style container-element silex-id-1477585012840-7" data-silex-id="silex-id-1477585012840-7" data-silex-href="http://www.google.com"></div>
         <div data-silex-type="container" class="editable-style container-element silex-id-1477585041105-8" data-silex-id="silex-id-1477585041105-8" data-silex-href="http://www.google.com"></div>
@@ -176,13 +195,7 @@
         <div data-silex-type="container" class="editable-style container-element silex-id-1477585078491-13" data-silex-id="silex-id-1477585078491-13" data-silex-href="http://www.google.com"></div>
         <div data-silex-type="container" class="editable-style container-element silex-id-1477585088885-14" data-silex-id="silex-id-1477585088885-14" data-silex-href="http://www.google.com"></div>
         <div data-silex-type="container" class="editable-style container-element silex-id-1477585095451-15" data-silex-id="silex-id-1477585095451-15" data-silex-href="http://www.google.com"></div>
-        <div data-silex-type="html" class="editable-style silex-id-1477585246736-16 html-element" data-silex-id="silex-id-1477585246736-16">
-            <div class="silex-element-content">
-                <video width="320" height="240" controls="">
-                    <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"> Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
+
     </div>
 
 
